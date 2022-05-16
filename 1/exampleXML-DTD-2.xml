@@ -1,4 +1,4 @@
-<?xml version="1.1" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE listaAutomoveis [
     <!ELEMENT listaAutomoveis (automovel*)>
     <!ELEMENT automovel (descricao, preco, caracteristicas)>
@@ -24,8 +24,8 @@
         <caracteristicas>
             <cor nome="vermelho"/>
             <quilometragem>300</quilometragem>
-            <fotografia id="1"/>
-            <fotografia id="2"/>
+            <fotografia id="f1"/>
+            <fotografia id="f2"/>
             <obs>Isso é uma observação</obs>
         </caracteristicas>
     </automovel>
@@ -38,8 +38,8 @@
         <caracteristicas>
             <cor nome="azul"/>
             <quilometragem></quilometragem>
-            <fotografia id="1"/>
-            <fotografia id="2"/>
+            <fotografia id="f3"/>
+            <fotografia id="f4"/>
             <obs>Isso é uma observação</obs>
         </caracteristicas>
     </automovel>
