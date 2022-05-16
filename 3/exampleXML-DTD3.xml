@@ -1,0 +1,78 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!DOCTYPE olimp2008 [
+    <!ELEMENT olimp2008 (pais+)>
+    <!ELEMENT pais (class, medalhas)>
+    <!ATTLIST pais nome CDATA #REQUIRED>
+    <!ELEMENT class (#PCDATA)>
+    <!ATTLIST class lugar CDATA #REQUIRED>
+    <!ELEMENT medalhas (ouro, prata, bronze, total)>
+    <!ELEMENT ouro (#PCDATA)>
+    <!ATTLIST ouro qtd CDATA #REQUIRED>
+    <!ELEMENT prata (#PCDATA)>
+    <!ATTLIST prata qtd CDATA #REQUIRED>
+    <!ELEMENT bronze (#PCDATA)>
+    <!ATTLIST bronze qtd CDATA #REQUIRED>
+    <!ELEMENT total (#PCDATA)>
+    <!ATTLIST total qtd CDATA #REQUIRED>
+]>
+<olimp2008>
+    <pais nome="China">
+        <class lugar="1"/>
+        <medalhas>
+            <ouro qtd="51"/>
+            <prata qtd="21"/>
+            <bronze qtd="28"/>
+            <total qtd="100"/>
+        </medalhas>
+    </pais>
+
+    <pais nome="EUA">
+        <class lugar="2"/>
+        <medalhas>
+            <ouro qtd="36"/>
+            <prata qtd="38"/>
+            <bronze qtd="36"/>
+            <total qtd="110"/>
+        </medalhas>
+    </pais>
+
+    <pais nome="Russia">
+        <class lugar="3"/>
+        <medalhas>
+            <ouro qtd="23"/>
+            <prata qtd="21"/>
+            <bronze qtd="28"/>
+            <total qtd="72"/>
+        </medalhas>
+    </pais>
+
+    <pais nome="Gra-Bretanha">
+        <class lugar="4"/>
+        <medalhas>
+            <ouro qtd="19"/>
+            <prata qtd="13"/>
+            <bronze qtd="15"/>
+            <total qtd="47"/>
+        </medalhas>
+    </pais>
+
+    <pais nome="Alemanha">
+        <class lugar="5"/>
+        <medalhas>
+            <ouro qtd="16"/>
+            <prata qtd="10"/>
+            <bronze qtd="15"/>
+            <total qtd="41"/>
+        </medalhas>
+    </pais>
+
+    <pais nome="Brasil">
+        <class lugar="6"/>
+        <medalhas>
+            <ouro qtd="3"/>
+            <prata qtd="4"/>
+            <bronze qtd="8"/>
+            <total qtd="15"/>
+        </medalhas>
+    </pais>
+</olimp2008>
