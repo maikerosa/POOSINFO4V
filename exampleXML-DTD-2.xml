@@ -2,7 +2,7 @@
 <!DOCTYPE listaAutomoveis [
     <!ELEMENT listaAutomoveis (automovel*)>
     <!ELEMENT automovel (descricao, preco, caracteristicas)>
-    <!ATTLIST automovel id CDATA #REQUIRED>
+    <!ATTLIST automovel id ID #REQUIRED>
     <!ELEMENT descricao (#PCDATA)>
     <!ATTLIST descricao combustivel (GASOLINA | GASOLEO | GPL) #REQUIRED>
     <!ELEMENT preco (#PCDATA)>
@@ -11,8 +11,10 @@
     <!ATTLIST cor nome CDATA #REQUIRED>
     <!ELEMENT quilometragem (#PCDATA)>
     <!ELEMENT fotografia (#PCDATA)>
-    <!ATTLIST fotografia id CDATA #REQUIRED>
+    <!ATTLIST fotografia id ID #REQUIRED>
     <!ELEMENT obs (#PCDATA)>
+
+
 ]>
 <listaAutomoveis>
     <automovel id="1">
