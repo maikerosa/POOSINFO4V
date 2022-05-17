@@ -18,7 +18,7 @@
 ]>
 <listaAutomoveis>
     <automovel id="1">
-        <descricao combustivel="GASOLINA"><Uma descrição qualquer /descricao>
+        <descricao combustivel="GASOLINA">Uma descrição qualquer </descricao>
         <preco></preco>
 
         <caracteristicas>
