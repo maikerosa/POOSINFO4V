@@ -18,7 +18,7 @@
 ]>
 <listaAutomoveis>
     <automovel id="1">
-        <descricao combustivel="GASOLINA"></descricao>
+        <descricao combustivel="GASOLINA"><Uma descrição qualquer /descricao>
         <preco></preco>
 
         <caracteristicas>
@@ -32,7 +32,7 @@
 
   
     <automovel id="2">
-        <descricao combustivel="GPL"></descricao>
+        <descricao combustivel="GPL">Outra descrição qualquer</descricao>
         <preco></preco>
 
         <caracteristicas>
