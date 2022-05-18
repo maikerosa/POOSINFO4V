@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE listaAutomoveis [
-    <!ELEMENT listaAutomoveis (automovel*)>
+    <!ELEMENT listaAutomoveis (automovel+)>
     <!ELEMENT automovel (descricao, preco, caracteristicas)>
     <!ATTLIST automovel id ID #REQUIRED>
     <!ELEMENT descricao (#PCDATA)>
     <!ATTLIST descricao combustivel (GASOLINA | GASOLEO | GPL) #REQUIRED>
     <!ELEMENT preco (#PCDATA)>
-    <!ELEMENT caracteristicas (cor, quilometragem, fotografia*, obs)>
+    <!ELEMENT caracteristicas (cor, quilometragem, fotografia+, obs)>
     <!ELEMENT cor (#PCDATA)>
     <!ATTLIST cor nome CDATA #REQUIRED>
     <!ELEMENT quilometragem (#PCDATA)>
