@@ -2,7 +2,7 @@
 <!DOCTYPE listaAutomoveis [
     <!ELEMENT listaAutomoveis (automovel+)>
     <!ELEMENT automovel (descricao, preco, caracteristicas)>
-    <!ATTLIST automovel id ID #REQUIRED>
+    <!ATTLIST automovel xml:id ID #REQUIRED>
     <!ELEMENT descricao (#PCDATA)>
     <!ATTLIST descricao combustivel (GASOLINA | GASOLEO | GPL) #REQUIRED>
     <!ELEMENT preco (#PCDATA)>
@@ -11,35 +11,35 @@
     <!ATTLIST cor nome CDATA #REQUIRED>
     <!ELEMENT quilometragem (#PCDATA)>
     <!ELEMENT fotografia (#PCDATA)>
-    <!ATTLIST fotografia id ID #REQUIRED>
+    <!ATTLIST fotografia xml:id ID #REQUIRED>
     <!ELEMENT obs (#PCDATA)>
 
 
 ]>
 <listaAutomoveis>
-    <automovel id="1">
+    <automovel xml:id="a1">
         <descricao combustivel="GASOLINA">Uma descrição qualquer </descricao>
         <preco></preco>
 
         <caracteristicas>
             <cor nome="vermelho"/>
             <quilometragem>300</quilometragem>
-            <fotografia id="f1"/>
-            <fotografia id="f2"/>
+            <fotografia xml:id="f1"/>
+            <fotografia xml:id="f2"/>
             <obs>Isso é uma observação</obs>
         </caracteristicas>
     </automovel>
 
   
-    <automovel id="2">
+    <automovel xml:id="a2">
         <descricao combustivel="GPL">Outra descrição qualquer</descricao>
         <preco></preco>
 
         <caracteristicas>
             <cor nome="azul"/>
             <quilometragem></quilometragem>
-            <fotografia id="f3"/>
-            <fotografia id="f4"/>
+            <fotografia xml:id="f3"/>
+            <fotografia xml:id="f4"/>
             <obs>Isso é uma observação</obs>
         </caracteristicas>
     </automovel>
