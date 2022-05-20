@@ -1,7 +1,7 @@
 <?xml version="1.1" encoding="UTF-8"?>
 
 <listaCantores>
-    <cantor id="1" nome="Matue">
+    <cantor xml:id="1" nome="Matue">
         <disco>
             <titulo>Quer Voar</titulo>
             <data ano="2022"/>
@@ -13,7 +13,7 @@
         </disco>
     </cantor>
 
-    <cantor id="2" nome="Wiu">
+    <cantor xml:id="2" nome="Wiu">
         <disco>
             <titulo>Titulo Wiu</titulo>
             <data ano="2022"/>
